@@ -11,6 +11,6 @@ Website for the St. Anton am Arlberg ski trip, 30 Jan &ndash; 7 Feb 2027.
 
 ## Editing content
 
-- `index.html` &mdash; all page content (Overview & Flights, Cost, Train tabs)
+- `index.html` &mdash; all page content (Overview & Flights, Skiing, Accommodation tabs)
 - `style.css` &mdash; styling
 - `app.js` &mdash; tab switching
