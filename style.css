@@ -5,9 +5,6 @@
   --ice-border: #cfe1f0;
   --text: #1b2733;
   --muted: #5b6b7a;
-  --yes: #1e8e5a;
-  --no: #c0392b;
-  --maybe: #b8860b;
   --radius: 10px;
 }
 
@@ -153,69 +150,6 @@ main {
 a {
   color: var(--blue);
 }
-
-.rsvp-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin: 1rem 0;
-}
-
-.rsvp-btn {
-  display: inline-block;
-  padding: 0.65rem 1.1rem;
-  border-radius: 999px;
-  font-weight: 600;
-  text-decoration: none;
-  color: #fff;
-}
-
-.rsvp-btn.yes { background: var(--yes); }
-.rsvp-btn.maybe { background: var(--maybe); }
-.rsvp-btn.no { background: var(--no); }
-
-.rsvp-summary {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-  margin-bottom: 1rem;
-  font-weight: 600;
-}
-
-.rsvp-summary span.yes { color: var(--yes); }
-.rsvp-summary span.maybe { color: var(--maybe); }
-.rsvp-summary span.no { color: var(--no); }
-
-.rsvp-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.92rem;
-}
-
-.rsvp-table th, .rsvp-table td {
-  text-align: left;
-  padding: 0.5rem 0.6rem;
-  border-bottom: 1px solid var(--ice-border);
-  vertical-align: top;
-}
-
-.rsvp-table th {
-  background: var(--ice);
-  color: var(--navy);
-}
-
-.status-pill {
-  display: inline-block;
-  padding: 0.15rem 0.6rem;
-  border-radius: 999px;
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: #fff;
-}
-
-.status-pill.yes { background: var(--yes); }
-.status-pill.maybe { background: var(--maybe); }
-.status-pill.no { background: var(--no); }
 
 footer {
   text-align: center;
